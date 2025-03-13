@@ -1,5 +1,6 @@
 # PROTOTYPE-NEW-MECHANICAL-TV-32-LIGNES-DFTA209
 Ce depository a pour but de recenser tous les schémas validés pour la TV définitive
+
 1 > SynchrDISC :
 J'ai décidé d'utiliser une boucle à verrouillage de phase (PLL) CD4046).
 Le signal optique reçu à travers les 32 trous de synchronisation situés en périphérie du DISC par la photo diode IR BPV23F est remis en forme et en phase grâce au transistor mosfet canl N Q8 (BS170) la photo diode est branchée en inverse elle se sature en présence d'un rayonnement infrarouge, le signal remis en forme est disponible sur le drain de Q8. Cette excellente remise en forme est nécessaire au bon fonctionnement du PLL (U10).
