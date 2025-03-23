@@ -21,3 +21,11 @@ Ce mosfet est monté sur un petit dissipateur qui pourra être monté directemen
 On peut remarquer la présence de R10 de R34 de 10 ohms 10W , elle permet de ne pas laisser à Q4 toute la dissipation de puissance à évacuer.
 
 La diode D8 est optionnelle c'est une diode de roue libre (donc branchée en inverse) si le moteur DC est un moteur à balais, ce qui n'est pas le cas ici, notre moteur étant un moteur à aimants permanents XD-3420 DC 12V 3500rpm.
+
+2 > SignauxVidéoLTSPICE
+
+Le signal doit d'abord être mis à niveau : on le polarise à mi VCC par les 2 résistances par R69 et 73 (1M) puis nous faisons transiter le signal par un ampli suiveur U23.1, RP11 permet de l'atténuer si nécessaire, puis on aligne ce signal sur le 0V grâce au DC restorer U23.2.
+
+Ensuite nous venons extraire les tops de synchro en inversant leur phase (on passe d'un puis de synchro à un top de synchro) et leur niveau. U23.3 est monté en comparateur.
+
+
