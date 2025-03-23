@@ -31,4 +31,5 @@ Le signal doit d'abord être mis à niveau : on le polarise à mi VCC par les 2 
 
 Ensuite nous venons extraire les tops de synchro en inversant leur phase (on passe d'un puis de synchro à un top de synchro) et leur niveau. U23.3 est monté en comparateur.
 
+Nous venons via le soustracteur U23.4 enlever le top de synchro du signal vidép composite la hauteur de synchro est ajustée par le potentiomètre RP9 le seuil de comparaison pour l'extraction des tops de synchro est à un niveau légérement inférieur, ce qui nous permet de n'utilser qu'un seul potentiomètre pour les 2 seuils.
 
