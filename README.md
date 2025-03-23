@@ -41,6 +41,6 @@ Ensuite gràace à ce nouveau signal vidéo nous venons commander en courant le 
 Cette commande en courant est principalement opérée grace à U15.1 et Q11.
 RP10 a pour rôle de modifier le courant dans les LEDs c'est le réglage de luminosité.
 
-
+SVP : N'HESITEZ PAS A ME SIGNALER LES ERREURS ET LES IMPRECISIONS MERCI
 
 
