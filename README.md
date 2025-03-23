@@ -1,7 +1,6 @@
 # PROTOTYPE-NEW-MECHANICAL-TV-32-LIGNES-DFTA209
 
 
-
 Ce depository a pour but de recenser tous les schémas pré validés pour la TV définitive.
 
 1 > SynchrDISC :
@@ -41,4 +40,7 @@ Nous venons via le soustracteur U23.4 enlever le top de synchro du signal vidép
 Ensuite gràace à ce nouveau signal vidéo nous venons commander en courant le groupement de LEDs (3 fois 4)  dans le circuit source les diodes D13 et D14 permettent d'aporter une correcton gamma.
 Cette commande en courant est principalement opérée grace à U15.1 et Q11.
 RP10 a pour rôle de modifier le courant dans les LEDs c'est le réglage de luminosité.
+
+
+
 
