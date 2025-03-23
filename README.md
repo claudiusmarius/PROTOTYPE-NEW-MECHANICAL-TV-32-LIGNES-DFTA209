@@ -33,3 +33,7 @@ Ensuite nous venons extraire les tops de synchro en inversant leur phase (on pas
 
 Nous venons via le soustracteur U23.4 enlever le top de synchro du signal vidép composite la hauteur de synchro est ajustée par le potentiomètre RP9 le seuil de comparaison pour l'extraction des tops de synchro est à un niveau légérement inférieur, ce qui nous permet de n'utilser qu'un seul potentiomètre pour les 2 seuils.
 
+Ensuite gràace à ce nouveau signal vidéo nous venons commander en courant le groupement de LEDs (3 fois 4)  dans le circuit source les diodes D13 et D14 permettent d'aporter une correcton gamma.
+Cette commande en courant est principalement opérée grace à U15.1 et Q11.
+RP10 a pour rôle de modifier le courant dans les LEDs c'est le réglage de luminosité.
+
