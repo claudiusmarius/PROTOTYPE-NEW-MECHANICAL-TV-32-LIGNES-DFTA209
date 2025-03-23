@@ -30,6 +30,8 @@ La diode D8 est optionnelle c'est une diode de roue libre (donc branchée en inv
 
 2 > SignauxVidéoLTSPICE
 
+https://youtu.be/oKlO-2Si9WA
+
 Le signal doit d'abord être mis à niveau : on le polarise à mi VCC par les 2 résistances par R69 et 73 (1M) puis nous faisons transiter le signal par un ampli suiveur U23.1, RP11 permet de l'atténuer si nécessaire, puis on aligne ce signal sur le 0V grâce au DC restorer U23.2.
 
 Ensuite nous venons extraire les tops de synchro en inversant leur phase (on passe d'un puis de synchro à un top de synchro) et leur niveau. U23.3 est monté en comparateur.
