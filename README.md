@@ -2,7 +2,7 @@
 
 
 Ce depository a pour but de recenser tous les schémas pré validés pour la TV définitive.
-
+Ce depository a pour but de recenser tous les schémas pré validés pour la TV définitive.
 1 > SynchrDISC :
 
 https://youtu.be/teULYgM-BcQ
