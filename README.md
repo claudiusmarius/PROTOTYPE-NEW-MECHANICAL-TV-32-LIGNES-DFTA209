@@ -60,5 +60,7 @@ la LED D5 a été ajoutée comme voyant présence tension, je n'ai pas encore d�
 
 J5 et J7 onté été ajoutés pour l'alimentation 15V : un bornier pour accueiller le 15V et un autre pour le distribuer au cas où.
 
+Q2 et Q3 sont identiques ce sont des mosfet canl N de puissance, ils seront tous deux montés sur des dissipateurs adaptés aux PCB.
+
 
 
