@@ -54,5 +54,11 @@ les impulsions PLL issues de PHASE/COMP/II/OUT sont atténuées grâce au pont c
 
 Pour ne pas laisser sans utilisaton un AOP disponible j'en ai profité pour le coupler à un un mosfet et en faire un générateur de courant pour alimenter la LED IR emettrice de synchro disque, là aussi il existe un simulateur excell pour le calcul des composants.
 
+Tous les PADs H sont destinés à accueillir des cosses poignard.
+
+la LED D5 a été ajoutée comme voyant présence tension, je n'ai pas encore décidé si elle sera montée en face avant ou restera sur le PCB.
+
+J5 et J7 onté été ajoutés pour l'alimentation 15V : un bornier pour accueiller le 15V et un autre pour le distribuer au cas où.
+
 
 
