@@ -44,6 +44,8 @@ RP10 a pour rôle de modifier le courant dans les LEDs c'est le réglage de lumi
 
 SVP : N'HESITEZ PAS A ME SIGNALER LES ERREURS ET LES IMPRECISIONS MERCI
 
-3 >
+3 > Plaquette Définitive Validation BreadBoard
+
+
 
 
