@@ -46,6 +46,9 @@ SVP : N'HESITEZ PAS A ME SIGNALER LES ERREURS ET LES IMPRECISIONS MERCI
 
 3 > Plaquette Définitive Validation BreadBoard
 
+Les principales modifications portent sur le pont de polarisation, on n'utilise plus de référence à 3.3V et on utilise le premier diviseur R24 - RV5 - R25 pour avoir un peu de 0,6V sur H3 lorsque RV5 est à mi-course.
+Ensuite nous fixons 2 seuils le premier pour le talon du niveau du noir sur 0V et le second pour se positionner sur la hauteur du puits de synchro.
+Des simulations peuvent être faites à l'aide du simulateur sur Excel.
 
 
 
