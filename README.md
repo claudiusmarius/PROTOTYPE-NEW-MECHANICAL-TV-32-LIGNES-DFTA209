@@ -50,7 +50,9 @@ Les principales modifications portent sur le pont de polarisation, on n'utilise 
 Ensuite nous fixons 2 seuils le premier pour le talon du niveau du noir sur 0V et le second pour se positionner sur la hauteur du puits de synchro.
 Des simulations peuvent être faites à l'aide du simulateur sur Excel.
 
-les impulsions PLL issues de PHASE/COMP/II/OUT sont atténuées grâce au pont constitué de R30 - RV7 - R31, principalement après avoir décidé de tout alimenter en 15V, ces impulsions attaquaient de façon trop nerveuses la gate de Q2, typiquement RV7 doit être réglé à mi-course
+les impulsions PLL issues de PHASE/COMP/II/OUT sont atténuées grâce au pont constitué de R30 - RV7 - R31, principalement après avoir décidé de tout alimenter en 15V, ces impulsions attaquaient de façon trop nerveuses la gate de Q2, typiquement RV7 doit être réglé à mi-course.
+
+Pour ne pas laisser sans utilisaton un AOP disponible j'en ai profité pour le coupler à un un mosfet et en faire un générateur de courant pour alimenter la LED IR emettrice de synchro disque, là aussi il existe un simulateur excell pour le calcul des composants.
 
 
 
