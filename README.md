@@ -62,5 +62,5 @@ J5 et J7 onté été ajoutés pour l'alimentation 15V : un bornier pour accueill
 
 Q2 et Q3 sont identiques ce sont des mosfet canl N de puissance, ils seront tous deux montés sur des dissipateurs adaptés aux PCB.
 
-
+SW1 a été rajouté pour les très rares cas où la boucle à verrouillage de phase se met à osciller à la recherche de son point d'équilibre, le fait de mettre le potentiel de retour de tension de drain de Q2 à zéro, permet de repartir sur de bonnes bases et de retrouver un verrouillage beaucoup plus rapidement.
 
