@@ -50,17 +50,17 @@ Les principales modifications portent sur le pont de polarisation, on n'utilise 
 Ensuite nous fixons 2 seuils le premier pour le talon du niveau du noir sur 0V et le second pour se positionner sur la hauteur du puits de synchro.
 Des simulations peuvent être faites à l'aide du simulateur sur Excel.
 
-les impulsions PLL issues de PHASE/COMP/II/OUT sont atténuées grâce au pont constitué de R30 - RV7 - R31, principalement après avoir décidé de tout alimenter en 15V, ces impulsions attaquaient de façon trop nerveuses la gate de Q2, typiquement RV7 doit être réglé à mi-course.
+Les impulsions PLL issues de PHASE/COMP/II/OUT sont atténuées grâce au pont constitué de R30 - RV7 - R31, principalement après avoir décidé de tout alimenter en 15V, ces impulsions attaquaient de façon trop nerveuses la gate de Q2, typiquement RV7 doit être réglé à mi-course.
 
 Pour ne pas laisser sans utilisaton un AOP disponible j'en ai profité pour le coupler à un un mosfet et en faire un générateur de courant pour alimenter la LED IR emettrice de synchro disque, là aussi il existe un simulateur excell pour le calcul des composants.
 
-Tous les PADs H sont destinés à accueillir des cosses poignard.
+Tous les points tests seront accessibles par des cosses poignard.
 
-la LED D5 a été ajoutée comme voyant présence tension, les PADs H18 et H19 permettent si on le souhaite de déporter cette LED par exemple sur la face avant.
+La LED D5 a été ajoutée comme voyant présence tension, les points tests TP18 et TP19 permettent si on le souhaite de déporter cette LED par exemple sur la face avant.
 
 J5 et J7 onté été ajoutés pour l'alimentation 15V : un bornier pour accueiller le 15V et un autre pour le distribuer au cas où.
 
-Q2 et Q3 sont identiques ce sont des mosfet canl N de puissance, ils seront tous deux montés sur des dissipateurs adaptés aux PCB.
+Q2 et Q3 sont identiques ce sont des mosfet canl N de puissance, ils seront tous deux montés sur des dissipateurs adaptés aux PCB.Celui ci est fixé au PCB via 2 piges soudables à l'étain.
 
-SW1 a été rajouté pour les très rares cas où la boucle à verrouillage de phase se met à osciller à la recherche de son point d'équilibre, le fait de mettre le potentiel de retour de tension de drain de Q2 à zéro, permet de repartir sur de bonnes bases et de retrouver un verrouillage beaucoup plus rapidement.
+TP16 et TP17 ont été rajoutés pour être raccordés à un BP NO en face avant pour les très rares cas où la boucle à verrouillage de phase se met à osciller à la recherche de son point d'équilibre, le fait de mettre le potentiel de retour de tension de drain de Q2 à zéro, permet de repartir sur de bonnes bases et de retrouver un verrouillage beaucoup plus rapidement.
 
